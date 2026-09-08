@@ -96,6 +96,9 @@ data = [12, 15, 14, 16, 13, 18, 17]
 stat, p_value = shapiro(data)
 print("Statistic:", stat)
 print("p-value:",p_value)
+<br>
+Statistic: 0.9780016294121008
+p-value: 0.9492885623536165
 
 
 
