@@ -83,14 +83,7 @@ print("p-value:", p_value)
 Statistic: 0.0
 p-value: 0.0625
 <br>
-#Shapiro-wilk Normality Test
-from scipy.stats import shapiro
-data = [12, 15, 14, 16, 13, 18, 17]
-stat, p_value = shapiro(data)
-print("Statistic:", stat)
-print("p-value:",p_value)
-<br>result
-#Shapiro-wilk Normality Test
+# Shapiro-wilk Normality Test
 from scipy.stats import shapiro
 data = [12, 15, 14, 16, 13, 18, 17]
 stat, p_value = shapiro(data)
